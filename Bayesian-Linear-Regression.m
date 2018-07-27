@@ -155,7 +155,7 @@ mN' % for comparison, show average mN
 % repmatrepmat(A,n, m) returns an array containing n x m copies of A
 % in the row and column dimensions
 mN_array = repmat(mN',5,1) + randn(5,M)*cholSN % generate n-dimensional matrix
-% like learned in the lecture, first 'randn'
+% first 'randn'
 % creates a normal distribution with 5 x M values
 % Afterwards scale this distribution to the correct covariance with cholSN
 % Finally move it to the correct mean value by adding the mN vector
